@@ -1,3 +1,7 @@
+//Hendrik Brutsaert
+//cs110c
+
+
 #pragma once
 
 #include "ListInterface.h"

@@ -1,0 +1,20 @@
+Hendrik Brutsaert
+CS110C
+
+Counting sort questions
+In big O notation, what is the expected efficiency?  
+O(n) -  The array is accessed 3 times per item in the array
+Why is counting sort impractical as a general sorting algorithm?
+counting sort is impractical when the range of the large or undefined. then the count array will be prohibitively large.
+
+comparison of algos: 
+bubble-sort 8: 96 60 96 84
+quick-sort 8: 55 51 56 54
+counting-sort 8: 24 24 24 24
+bubble-sort 32: 1590 1494 1338 1474
+quick-sort 32: 379 335 339 351
+counting-sort 32: 96 96 96 96
+bubble-sort 128: 23064 23196 24138 23466
+quick-sort 128: 1947 1808 1768 1841
+counting-sort 128: 384 384 384 384
+

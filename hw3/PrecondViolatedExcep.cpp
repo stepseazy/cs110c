@@ -1,4 +1,5 @@
-#include "stdafx.h"
+//Hendrik brutsaert
+//cs110c
 
 //  Created by Frank M. Carrano and Tim Henry.
 //  Copyright (c) 2013 __Pearson Education__. All rights reserved.

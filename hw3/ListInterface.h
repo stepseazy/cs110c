@@ -1,3 +1,6 @@
+//Hendrik Brutsaert
+//cs110c
+
 #pragma once
 
 template<class ItemType>

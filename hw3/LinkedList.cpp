@@ -1,4 +1,6 @@
-#include "stdafx.h"
+//Hendrik brutsaert
+//cs110c
+
 #include "LinkedList.h"
 
 
