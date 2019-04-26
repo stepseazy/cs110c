@@ -15,6 +15,8 @@
 
 #include <cstdlib>
 #include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
 
 template<class ItemType>
 ArrayMaxHeap<ItemType>::ArrayMaxHeap(const ItemType someArray[], const int arraySize) :
@@ -85,9 +87,9 @@ void ArrayMaxHeap<ItemType>::heapRebuild(int rootIndex) {
 
 template < class ItemType>
 void ArrayMaxHeap<ItemType>::swap(int index1, int index2) {
-    ItemType temp = index1;
-    index1 = index2;
-    index2 = temp;
+    ItemType temp = items[index1];
+    items[index1] = items[index2];
+    items[index2] = temp;
 } // end swap
 
 template < class ItemType>

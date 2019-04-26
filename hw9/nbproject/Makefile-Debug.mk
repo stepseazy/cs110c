@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/ArrayMaxHeap.o \
+	${OBJECTDIR}/Heap_PriorityQueue.o \
 	${OBJECTDIR}/PrecondViolatedExcep.o \
 	${OBJECTDIR}/main.o
 
@@ -68,6 +69,11 @@ ${OBJECTDIR}/ArrayMaxHeap.o: ArrayMaxHeap.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ArrayMaxHeap.o ArrayMaxHeap.cpp
+
+${OBJECTDIR}/Heap_PriorityQueue.o: Heap_PriorityQueue.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Heap_PriorityQueue.o Heap_PriorityQueue.cpp
 
 ${OBJECTDIR}/PrecondViolatedExcep.o: PrecondViolatedExcep.cpp
 	${MKDIR} -p ${OBJECTDIR}

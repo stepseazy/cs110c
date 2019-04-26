@@ -24,6 +24,11 @@ private:
     string description;
 public:
 
+    priorityItem(){
+        priority=0;
+        description="no description";
+    }
+    
     priorityItem(int p, string d) {
         priority = p;
         description = d;
@@ -42,12 +47,9 @@ public:
         return (priority < item2.priority);
     };
 
-    void toString() {
-        cout << "item: " << description << endl;
-        cout << "priority: " << priority << endl;
+    string toString() {
+        return ("(priority "+to_string(priority)+") "+description+"\n");
     }
-
-
 };
 
 #endif /* PRIORITYITEM_H */
